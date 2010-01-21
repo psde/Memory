@@ -34,6 +34,7 @@ public class MemoryView {
 		}
 		this.kartenBreite = Integer.toString(maximum).length();
 	}
+	
 	/**
 	 * Zeigt einen String an.
 	 * 

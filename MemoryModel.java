@@ -30,12 +30,10 @@ public class MemoryModel {
 		
 		this.karten = new Karte[anzahlKarten];
 		
-		int c = 0;
-		for(int i = 0; i < this.karten.length; i+=2)
+		for(int i = 0, c = 1; i < this.karten.length; i+=2, c++)
 		{
 			this.karten[i] = new Karte(c);
 			this.karten[i+1] = new Karte(c);
-			c++;
 		}
 	}
 
@@ -56,8 +54,9 @@ public class MemoryModel {
 	}
 	
 	/**
-	 * Gibt die Nummer des aktuellen Spielers zurück
-	 * @return Aktueller Spieler
+	 * Gibt die Nummer des aktuellen Spielers zurück.
+	 * 
+	 * @return Aktueller Spieler.
 	 */
 	public int getSpielerAmZug()
 	{
@@ -77,7 +76,7 @@ public class MemoryModel {
 	/**
 	 * Gibt das Spielfeld zurück.
 	 * 
-	 * @return Array aus Karten, welches das Spielfeld repräsentieren
+	 * @return Array aus Karten, welches das Spielfeld repräsentieren.
 	 */
 	public Karte[] getKarten()
 	{
@@ -85,9 +84,9 @@ public class MemoryModel {
 	}
 	
 	/**
-	 * Prüft ob das Spiel zuende ist
+	 * Prüft ob das Spiel zuende ist.
 	 * 
-	 * @return True, wenn alle Karten aufgedeckt, ansonsten False
+	 * @return True, wenn alle Karten aufgedeckt, ansonsten False.
 	 */
 	public boolean istAbgeschlossen()
 	{
@@ -101,12 +100,12 @@ public class MemoryModel {
 	/**
 	 * Versucht, zwei Karten aufzudecken und erhöht bei einem richtigen Zug
 	 * die Punkte des aktuellen Spielers.
-	 * Bei einem gültigen Zug ist der nächste Spieler an der Reihe
+	 * Bei einem gültigen Zug ist der nächste Spieler an der Reihe.
 	 * 
-	 * @param ersteKarte 1D-Koordinate der ersten Karte
-	 * @param zweiteKarte 1D-Koordinate der zweiten Karte
+	 * @param ersteKarte 1D-Koordinate der ersten Karte.
+	 * @param zweiteKarte 1D-Koordinate der zweiten Karte.
 	 * 
-	 * @return Integer: -1 bei ungültigen Zug, 0 bei falschen Zug, 1 bei richtigem Zug
+	 * @return Integer: -1 bei ungültigen Zug, 0 bei falschen Zug, 1 bei richtigem Zug.
 	 */
 	public int kartenAufdecken(int ersteKarte, int zweiteKarte)
 	{
