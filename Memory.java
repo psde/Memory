@@ -15,7 +15,7 @@ public class Memory {
 	 */
 	public static void main(String argv[])
 	{	
-		MemoryModel model = new MemoryModel(14);
+		MemoryModel model = new MemoryModel(140);
 		MemoryView view = new MemoryView(model);
 		MemoryController controller = new MemoryController(model, view);
 		

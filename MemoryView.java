@@ -32,7 +32,7 @@ public class MemoryView {
 		{
 			if(karten[i].getKarte() > maximum) maximum = karten[i].getKarte();
 		}
-		this.kartenBreite = log10(maximum);
+		this.kartenBreite = Integer.toString(maximum).length();
 	}
 	/**
 	 * Zeigt einen String an.
