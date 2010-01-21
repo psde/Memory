@@ -19,7 +19,6 @@ public class Memory {
 		MemoryView view = new MemoryView(model);
 		MemoryController controller = new MemoryController(model, view);
 		
-		//controller.starteSpiel();
-		view.zeigeKarten();
+		controller.starteSpiel();
 	}
 }

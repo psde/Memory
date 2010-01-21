@@ -109,6 +109,7 @@ public class MemoryModel {
 	 */
 	public int kartenAufdecken(int ersteKarte, int zweiteKarte)
 	{
+		if(ersteKarte > this.karten.length || zweiteKarte > this.karten.length) return -1;
 		if(this.karten[ersteKarte].istAufgedeckt()) return -1;
 		if(this.karten[zweiteKarte].istAufgedeckt()) return -1;
 		
