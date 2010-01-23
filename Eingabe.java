@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+ï»¿import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -12,7 +12,7 @@ public class Eingabe {
 	private static BufferedReader console =   new BufferedReader( new InputStreamReader( System.in ) ); 
 	
 	/**
-	 * Gibt die nächste Eingabezeile als String zurück.
+	 * Gibt die nÃ¤chste Eingabezeile als String zurÃ¼ck.
 	 */
 	public static String readLine() {
 		try {
@@ -23,8 +23,8 @@ public class Eingabe {
 	}
 
 	/**
-	 * Gibt die nächste Eingabezeile als int-Wert zurück. Es werden
-	 * nur die ersten Ziffer inklusive Vorzeichen berücksichtigt.
+	 * Gibt die nÃ¤chste Eingabezeile als int-Wert zurÃ¼ck. Es werden
+	 * nur die ersten Ziffer inklusive Vorzeichen berÃ¼cksichtigt.
 	 */
 	public static int readInt() {
     		return parseInt(readLine());

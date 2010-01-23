@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * Koordiniert das Spiel.
  * 
  * @author Mathias Garbe
@@ -36,7 +36,7 @@ public class MemoryController {
 			int kartenStatus = 0;
 			do
 			{
-				if(kartenStatus == -1) this.view.zeigeTextAn("Ungültiger Zug! Bitte Eingabe überprüfen!\n");
+				if(kartenStatus == -1) this.view.zeigeTextAn("UngÃ¼ltiger Zug! Bitte Eingabe Ã¼berprÃ¼fen!\n");
 				koordinaten = this.koordinatenEingabe();
 				kartenStatus = this.model.kartenAufdecken(this.view.uebersetzeKoordinaten(koordinaten[0]), 
 						                                  this.view.uebersetzeKoordinaten(koordinaten[1]));

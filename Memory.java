@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Hauptklasse des Memoryspiels.
  * Implementiert Einsprungspunkt, erzeugt Model, View und Controller
  * und startet Spiel

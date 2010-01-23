@@ -1,5 +1,5 @@
-/**
- * Zust‰ndig f¸r das Anzeigen des Spiels in einem 2D-Koordinatensystem.
+Ôªø/**
+ * Zust√§ndig f√ºr das Anzeigen des Spiels in einem 2D-Koordinatensystem.
  */
 public class MemoryView {
 	private MemoryModel model;
@@ -38,7 +38,7 @@ public class MemoryView {
 	/**
 	 * Zeigt einen String an.
 	 * 
-	 * @param text Anzuzeigender Text, es wird kein newline oder carriage-return angeh‰ngt.
+	 * @param text Anzuzeigender Text, es wird kein newline oder carriage-return angeh√§ngt.
 	 */
 	public void zeigeTextAn(String text)
 	{
@@ -69,7 +69,7 @@ public class MemoryView {
 	}
 	
 	/**
-	 * Zeigt Spielfeld an, wobei zwei Karten einmalig (tempor‰r) aufgedeckt werden.
+	 * Zeigt Spielfeld an, wobei zwei Karten einmalig (tempor√§r) aufgedeckt werden.
 	 * 
 	 * @param ersteKarte 1D-Koordinate der ersten Karte
 	 * @param zweiteKarte 1D-Koordinate der zweiten Karte
@@ -123,7 +123,7 @@ public class MemoryView {
 	}
 	
 	/**
-	 * ‹bersetzt 2D-Koordinaten in eine 1D-Koordinate
+	 * √úbersetzt 2D-Koordinaten in eine 1D-Koordinate
 	 * @param x 
 	 * @param y
 	 * @return 1D-Koordinate 

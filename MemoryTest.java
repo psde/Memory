@@ -1,4 +1,4 @@
-import junit.framework.TestCase;
+ï»¿import junit.framework.TestCase;
 
 /**
  * Testet die MemoryModel-Klasse.
@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 public class MemoryTest extends TestCase {
 	
 	/**
-	 * Überprüft auf korrekte Anlegung des Spielfeldes
+	 * ÃœberprÃ¼ft auf korrekte Anlegung des Spielfeldes
 	 */
 	public void testKonstruktor()
 	{
@@ -24,7 +24,7 @@ public class MemoryTest extends TestCase {
 		}
 	}
 	/**
-	 * Überprüft auf korrektes Mischen.
+	 * ÃœberprÃ¼ft auf korrektes Mischen.
 	 */
 	public void testMischen()
 	{
@@ -44,7 +44,7 @@ public class MemoryTest extends TestCase {
 	}
 	
 	/**
-	 * Überprüft auf korrekten Rückgabewert bei dem Ziehen einer Karte.
+	 * ÃœberprÃ¼ft auf korrekten RÃ¼ckgabewert bei dem Ziehen einer Karte.
 	 */
 	public void testZiehen()
 	{
@@ -59,7 +59,7 @@ public class MemoryTest extends TestCase {
 	}
 	
 	/**
-	 * Überprüft auf korrekten Abschluss-Zustand der MemoryModel-Klasse.
+	 * ÃœberprÃ¼ft auf korrekten Abschluss-Zustand der MemoryModel-Klasse.
 	 */
 	public void testIstAbgeschlossen()
 	{
@@ -74,7 +74,7 @@ public class MemoryTest extends TestCase {
 	}
 	
 	/**
-	 * Überprüft die Getter der MemoryModel-Klasse auf korrektheit.
+	 * ÃœberprÃ¼ft die Getter der MemoryModel-Klasse auf korrektheit.
 	 */
 	public void testGetter()
 	{

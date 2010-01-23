@@ -1,4 +1,4 @@
-import java.util.Random;
+ï»¿import java.util.Random;
 
 /**
  * Das Spielfeld welches aus Karten,
@@ -54,7 +54,7 @@ public class MemoryModel {
 	}
 	
 	/**
-	 * Gibt die Nummer des aktuellen Spielers zurück.
+	 * Gibt die Nummer des aktuellen Spielers zurÃ¼ck.
 	 * 
 	 * @return Aktueller Spieler.
 	 */
@@ -64,9 +64,9 @@ public class MemoryModel {
 	}
 
 	/**
-	 * Gibt die Punktzahl beider Spieler zurück.
+	 * Gibt die Punktzahl beider Spieler zurÃ¼ck.
 	 * 
-	 * @return Array aus zwei Integer-Werte, welche die Punkte der Spieler repräsentieren.
+	 * @return Array aus zwei Integer-Werte, welche die Punkte der Spieler reprÃ¤sentieren.
 	 */
 	public int[] getSpielerPunkte()
 	{
@@ -74,9 +74,9 @@ public class MemoryModel {
 	}
 	
 	/**
-	 * Gibt das Spielfeld zurück.
+	 * Gibt das Spielfeld zurÃ¼ck.
 	 * 
-	 * @return Array aus Karten, welches das Spielfeld repräsentieren.
+	 * @return Array aus Karten, welches das Spielfeld reprÃ¤sentieren.
 	 */
 	public Karte[] getKarten()
 	{
@@ -84,7 +84,7 @@ public class MemoryModel {
 	}
 	
 	/**
-	 * Prüft ob das Spiel zuende ist.
+	 * PrÃ¼ft ob das Spiel zuende ist.
 	 * 
 	 * @return True, wenn alle Karten aufgedeckt, ansonsten False.
 	 */
@@ -98,14 +98,14 @@ public class MemoryModel {
 	}
 
 	/**
-	 * Versucht, zwei Karten aufzudecken und erhöht bei einem richtigen Zug
+	 * Versucht, zwei Karten aufzudecken und erhÃ¶ht bei einem richtigen Zug
 	 * die Punkte des aktuellen Spielers.
-	 * Bei einem gültigen Zug ist der nächste Spieler an der Reihe.
+	 * Bei einem gÃ¼ltigen Zug ist der nÃ¤chste Spieler an der Reihe.
 	 * 
 	 * @param ersteKarte 1D-Koordinate der ersten Karte.
 	 * @param zweiteKarte 1D-Koordinate der zweiten Karte.
 	 * 
-	 * @return Integer: -1 bei ungültigen Zug, 0 bei falschen Zug, 1 bei richtigem Zug.
+	 * @return Integer: -1 bei ungÃ¼ltigen Zug, 0 bei falschen Zug, 1 bei richtigem Zug.
 	 */
 	public int kartenAufdecken(int ersteKarte, int zweiteKarte)
 	{

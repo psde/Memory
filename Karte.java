@@ -1,4 +1,4 @@
-/**
+ï»¿/**
  * Eine Spielkarte mit einem bestimmten Wert,
  * die entweder aufgedeckt oder zugedeckt sein kann.
  */
@@ -18,7 +18,7 @@ public class Karte {
 	}
 	
 	/**
-	 * Gibt zurück, ob Karte aufgedeckt ist.
+	 * Gibt zurÃ¼ck, ob Karte aufgedeckt ist.
 	 * 
 	 * @return true, wenn Karte aufgedeckt ist, ansonsten false.
 	 */
@@ -28,7 +28,7 @@ public class Karte {
 	}
 	
 	/**
-	 * Gibt Kartenwert zurück.
+	 * Gibt Kartenwert zurÃ¼ck.
 	 * 
 	 * @return Kartenwert
 	 */
